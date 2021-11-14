@@ -11,10 +11,10 @@ export const RegisterScreen = () => {
     const dispatch = useDispatch();
 
     const [ valuesForm, onChangeValues ] = useForm({
-        rName:'Marcos',
-        rEmail:'marco@gmail.com',
-        rPasswordOne:'123456',
-        rPasswordTwo:'123456',
+        rName:'',
+        rEmail:'',
+        rPasswordOne:'',
+        rPasswordTwo:'',
     })
 
     const {rName, rEmail, rPasswordOne, rPasswordTwo}=valuesForm;
